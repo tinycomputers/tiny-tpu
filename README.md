@@ -23,9 +23,9 @@
   </p>
 
   <p>
-    <a href="https://github.com/deaneeth/tiny-tpu/actions/workflows/rtl.yml"><img src="https://github.com/deaneeth/tiny-tpu/actions/workflows/rtl.yml/badge.svg" alt="RTL CI" /></a>
-    <a href="https://github.com/deaneeth/tiny-tpu/actions/workflows/web.yml"><img src="https://github.com/deaneeth/tiny-tpu/actions/workflows/web.yml/badge.svg" alt="Web CI" /></a>
-    <a href="https://github.com/deaneeth/tiny-tpu/actions/workflows/wasm.yml"><img src="https://github.com/deaneeth/tiny-tpu/actions/workflows/wasm.yml/badge.svg" alt="WASM Build" /></a>
+    <a href="https://github.com/tinycomputers/tiny-tpu/actions/workflows/rtl.yml"><img src="https://github.com/tinycomputers/tiny-tpu/actions/workflows/rtl.yml/badge.svg" alt="RTL CI" /></a>
+    <a href="https://github.com/tinycomputers/tiny-tpu/actions/workflows/web.yml"><img src="https://github.com/tinycomputers/tiny-tpu/actions/workflows/web.yml/badge.svg" alt="Web CI" /></a>
+    <a href="https://github.com/tinycomputers/tiny-tpu/actions/workflows/wasm.yml"><img src="https://github.com/tinycomputers/tiny-tpu/actions/workflows/wasm.yml/badge.svg" alt="WASM Build" /></a>
   </p>
 
   <p>
