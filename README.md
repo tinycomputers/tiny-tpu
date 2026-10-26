@@ -4,6 +4,10 @@
   <h1>TinyTPU</h1>
 
   <p>
+    <a href="https://tiny-compiler.vercel.app"><strong>Compile to this chip: TinyCompiler</strong></a> turns one tensor program into this array's tile schedule and runs it here, checked bit-exact against numpy.
+  </p>
+
+  <p>
     <strong>A real, synthesizable 4×4 systolic array in SystemVerilog,<br>
     compiled to WebAssembly and running live in your browser.</strong>
   </p>
