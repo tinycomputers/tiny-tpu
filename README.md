@@ -266,7 +266,7 @@ tiny-tpu/
 
 | # | Project | Description | Status |
 |:---:|:---|:---|:---:|
-| 1 | **TinyGPU** | A minimal GPU in synthesizable RTL | ✅ Shipped |
+| 1 | **TinyGPU** | A Python simulator for parallel GPU execution | ✅ Shipped |
 | 2 | **TinyTPU** | This project, a minimal weight-stationary systolic array | ✅ Shipped |
 
 ---
