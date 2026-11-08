@@ -40,12 +40,43 @@
     <a href="https://tiny-tpu.vercel.app/docs/how-it-works">
       <img src="https://img.shields.io/badge/Read%20the%20Docs-4b9ef5?style=for-the-badge" alt="Read the Docs" />
     </a>
+    &nbsp;
+    <a href="docs/media/tinytpu-demo.mp4">
+      <img src="https://img.shields.io/badge/Watch%20the%20Demo-E4572E?style=for-the-badge&logoColor=white" alt="Watch the Demo" />
+    </a>
   </p>
 </div>
 
 ---
 
-## 🎬 Preview
+## 🎬 Watch the 69-Second Demo
+
+<div align="center">
+
+[![Watch the TinyTPU demo](docs/media/tinytpu-demo-preview.gif)](docs/media/tinytpu-demo.mp4)
+
+**[▶ Watch the full narrated demo · 1080p · 69 s · with sound](docs/media/tinytpu-demo.mp4)**
+
+</div>
+
+The preview above is a looping GIF, so it plays on its own. The full cut walks through the idea, the hardware, and the live visualizer, with narration and a sound design.
+
+| Time | Chapter |
+|:---:|:---|
+| `0:00` | Nearly every AI model runs on one simple idea |
+| `0:05` | Matrix multiplication, and the chip built to do it at scale |
+| `0:11` | Meet TinyTPU: a real 4×4 systolic array |
+| `0:20` | Enter two matrices and press run |
+| `0:24` | Weights load, and matrix A streams in on a diagonal |
+| `0:32` | Each cell multiplies, adds, and passes its partial sum down |
+| `0:39` | How the design reaches the browser: RTL, WebAssembly, and a bit-exact check against NumPy |
+| `0:49` | Play, pause, step, and scrub through every cycle |
+| `0:55` | Tiling larger matrices across the same small array |
+| `1:02` | Try it live, and open the source |
+
+---
+
+## 🖥️ The Live Visualizer
 
 <div align="center">
 
@@ -220,7 +251,12 @@ tiny-tpu/
 │   ├── src/lib/                wasm-loader.ts, state-schema.ts
 │   └── public/                 tiny_tpu.wasm (compiled artifact)
 │
+├── demo-video/                 Remotion project for the narrated demo video
+│   ├── src/                    Scenes, timeline, camera and audio mix
+│   └── scripts/                Voiceover, music, sound effects and the RTL trace recorder
+│
 └── docs/
+    ├── media/                  Demo video (MP4) and README preview (GIF)
     └── STATE_SCHEMA.md         Per-cycle state contract (keep in sync with state-schema.ts)
 ```
 
