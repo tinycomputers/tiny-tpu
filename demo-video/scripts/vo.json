@@ -1,0 +1,12 @@
+[
+ {"id":"s1","text":"Nearly every AI model you've used runs on one simple idea."},
+ {"id":"s2","text":"Matrix multiplication. And the chip built to do that math at scale is the T P U."},
+ {"id":"s3","text":"Meet Tiny T P U. A real four by four systolic array, written in SystemVerilog, that you can actually watch run."},
+ {"id":"s4","text":"Enter two small matrices, then press run."},
+ {"id":"s5","text":"The weights load into the grid and stay put. Matrix A streams in from the left, staggered on a diagonal."},
+ {"id":"s6","text":"Each cell multiplies, adds, and passes its partial sum down the column. One clock cycle at a time."},
+ {"id":"s7","text":"Nothing here is faked. Every number comes from the real hardware design, compiled to WebAssembly, and is checked bit for bit against NumPy."},
+ {"id":"s8","text":"Play, pause, or step through every cycle, and scrub back in time whenever you like."},
+ {"id":"s9","text":"Then scale up. Large matrices tile across the same small array, one block at a time."},
+ {"id":"s10","text":"TinyTPU. A TPU you can watch run. It's open source, and you can try it right now."}
+]

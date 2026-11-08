@@ -1,0 +1,4 @@
+node_modules/
+out/
+*.log
+!scripts/rtl/tiny_tpu.wasm
